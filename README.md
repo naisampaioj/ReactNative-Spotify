@@ -6,6 +6,6 @@ Tela original e tela reproduzida:
 
 
 <p align="center">
-  <img src="https://github.com/naisampaioj/ReactNative-Spotify/blob/master/src/img/readme_images/original.png" width="350" title="hover text">
-  <img src="https://github.com/naisampaioj/ReactNative-Spotify/blob/master/src/img/readme_images/reproducao.png" width="350" alt="accessibility text">
+  <img src="https://github.com/naisampaioj/ReactNative-Spotify/blob/master/src/img/readme_images/original.png" width="350" alt="Original">
+  <img src="https://github.com/naisampaioj/ReactNative-Spotify/blob/master/src/img/readme_images/reproducao.png" width="350" alt="Reproduzida">
 </p>
