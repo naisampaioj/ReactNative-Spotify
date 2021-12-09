@@ -45,27 +45,33 @@ const Album = () => {
                     </View>
 
                     <View style={styles.MenuUnder}>
-                    <TouchableOpacity>
-                        <View style={styles.LinhaHorizontal}>
-                            <FontAwesomeIcon icon={faHeart} size={20} color={`#fff9`} style={styles.IconesHeader} />
-                            <Text style={styles.TituloInfo}>Curtir</Text>
-                        </View>
-                    </TouchableOpacity>
-                        <View style={styles.LinhaHorizontal}>
-                            <FontAwesomeIcon icon={faUser} size={20} color={`#fff9`} style={styles.IconesHeader} />
-                            <Text style={styles.TituloInfo}>Ver o artista</Text>
-                        </View>
+                        <TouchableOpacity>
+                            <View style={styles.LinhaHorizontal}>
+                                <FontAwesomeIcon icon={faHeart} size={20} color={`#fff9`} style={styles.IconesHeader} />
+                                <Text style={styles.TituloInfo}>Curtir</Text>
+                            </View>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                            <View style={styles.LinhaHorizontal}>
+                                <FontAwesomeIcon icon={faUser} size={20} color={`#fff9`} style={styles.IconesHeader} />
+                                <Text style={styles.TituloInfo}>Ver o artista</Text>
+                            </View>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={styles.LinhaHorizontal}>
                             <FontAwesomeIcon icon={faHeartFull} size={20} color={`#1ED760`} style={styles.IconesHeader} />
                             <Text style={styles.TituloInfo}>Você já curtiu todas as músicas</Text>
                         </View>
-                        <View style={styles.LinhaHorizontal}>
-                            <FontAwesomeIcon icon={faShareAlt} size={20} color={`#fff9`} style={styles.IconesHeader} />
-                            <Text style={styles.TituloInfo}>Compartilhar</Text>
-                        </View>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                            <View style={styles.LinhaHorizontal}>
+                                <FontAwesomeIcon icon={faShareAlt} size={20} color={`#fff9`} style={styles.IconesHeader} />
+                                <Text style={styles.TituloInfo}>Compartilhar</Text>
+                            </View>
+                        </TouchableOpacity>
                     </View>
 
-                    
+
                 </View>
             </ScrollView>
 
